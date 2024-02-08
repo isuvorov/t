@@ -35,7 +35,7 @@
       "./node_modules/ycmd/scripts"
     ]
   },
-  "size-limit": [
+  "_size-limit": [
     {
       "path": "lib/index.js",
       "limit": "1KB"
