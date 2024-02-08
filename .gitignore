@@ -2,3 +2,4 @@ lib
 cjs
 node_modules
 .vscode
+__*
