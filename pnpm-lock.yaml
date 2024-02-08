@@ -30,8 +30,8 @@ devDependencies:
     specifier: ^0.5.6
     version: 0.5.6
   ycmd:
-    specifier: ^0.17.1
-    version: 0.17.1(esbuild@0.20.0)(typescript@5.3.3)
+    specifier: ^0.17.2
+    version: 0.17.2(esbuild@0.20.0)(typescript@5.3.3)
 
 packages:
 
@@ -632,7 +632,7 @@ packages:
     engines: {node: ^14.17.0 || >=16.0.0}
     dependencies:
       chalk: 4.1.2
-      execa: 5.0.0
+      execa: 5.1.1
       strong-log-transformer: 2.1.0
     dev: true
 
@@ -1317,7 +1317,7 @@ packages:
       '@octokit/request-error': 3.0.3
       '@octokit/types': 9.3.2
       is-plain-object: 5.0.0
-      node-fetch: 2.6.7
+      node-fetch: 2.7.0
       universal-user-agent: 6.0.1
     transitivePeerDependencies:
       - encoding
@@ -2193,8 +2193,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@ycmd/commands@0.17.1(esbuild@0.20.0)(typescript@5.3.3)(ycmd@0.17.1):
-    resolution: {integrity: sha512-8ALSrZr32HaJbyjCfFNxkNbGIljPEJFla2l34MZA9kx5zlQcXKlKTSTne5nYZfELUzvw2HOevTM+PsmGbIuWCQ==}
+  /@ycmd/commands@0.17.2(esbuild@0.20.0)(typescript@5.3.3)(ycmd@0.17.2):
+    resolution: {integrity: sha512-mdyoAERO9i+pjR2MMrgSWjXyxEQo5II++uiwi4LTg45ZhcswMcj+BWmFd7/BwIc3A8gq5ozooO26jhEqNoT6/g==}
     peerDependencies:
       ycmd: '*'
     dependencies:
@@ -2222,7 +2222,7 @@ packages:
       sort-package-json: 2.7.0
       tsm: 2.3.0
       yargs: 17.7.2
-      ycmd: 0.17.1(esbuild@0.20.0)(typescript@5.3.3)
+      ycmd: 0.17.2(esbuild@0.20.0)(typescript@5.3.3)
     transitivePeerDependencies:
       - '@microsoft/api-extractor'
       - '@swc-node/register'
@@ -4447,9 +4447,9 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       cross-spawn: 7.0.3
-      get-stream: 6.0.0
+      get-stream: 6.0.1
       human-signals: 2.1.0
-      is-stream: 2.0.0
+      is-stream: 2.0.1
       merge-stream: 2.0.0
       npm-run-path: 4.0.1
       onetime: 5.1.2
@@ -8717,7 +8717,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       del: 6.1.1
-      is-stream: 2.0.0
+      is-stream: 2.0.1
       temp-dir: 2.0.0
       type-fest: 0.16.0
       unique-string: 2.0.0
@@ -9542,12 +9542,12 @@ packages:
       fd-slicer: 1.1.0
     dev: true
 
-  /ycmd@0.17.1(esbuild@0.20.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-Euh+/IZJanRag7cPtjMTl18qBki2IQfJbWHi7KyB5bE1qtBd2c4xN+6Aj+SO64vKTroVMTgUpnPlX9498orsTg==}
+  /ycmd@0.17.2(esbuild@0.20.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-pGFUxA7g336Tiv7eIIKhNuTMldrIOAmTMcLsocBPGaR3bTYcsf/jMokgAZCU8+Yy3NDRNmv1xKTgCGdHJT+HMw==}
     hasBin: true
     dependencies:
       '@lsk4/err': 4.9.0
-      '@ycmd/commands': 0.17.1(esbuild@0.20.0)(typescript@5.3.3)(ycmd@0.17.1)
+      '@ycmd/commands': 0.17.2(esbuild@0.20.0)(typescript@5.3.3)(ycmd@0.17.2)
       '@ycmd/helpers': 0.17.0(esbuild@0.20.0)
       '@ycmd/run': 0.17.0(esbuild@0.20.0)
       '@ycmd/utils': 0.17.0(esbuild@0.20.0)

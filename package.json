@@ -8,6 +8,7 @@
     "dev": "              ycmd dev",
     "build": "            ycmd build",
     "test": "             ycmd test",
+    "test:watch": "       ycmd test --watch",
     "prepack": "          ycmd prepack",
     "release": "          ycmd release"
   },
@@ -22,7 +23,7 @@
     "size-limit": "^11.0.2",
     "typescript": "^5.3.3",
     "uvu": "^0.5.6",
-    "ycmd": "^0.17.1"
+    "ycmd": "^0.17.2"
   },
   "prettier": "@lsk4/eslint-config/prettier",
   "eslintConfig": {
@@ -30,6 +31,7 @@
   },
   "ycmd": {
     "scripts": [
+      "./scripts",
       "./node_modules/ycmd/scripts"
     ]
   },
