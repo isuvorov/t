@@ -2,8 +2,8 @@
 import { suite } from 'uvu';
 import * as assert from 'uvu/assert';
 
-import type { ValidatedTransaction } from '../src';
 import { txValidate } from '../src';
+import type { ValidatedTransaction } from '../src/types';
 
 const test = suite('txValidate');
 const removeValidation = (trancastions: ValidatedTransaction[]) =>
