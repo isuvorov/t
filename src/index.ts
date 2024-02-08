@@ -1,1 +1,1 @@
-export * from './txValidate.js';
+export * from './tx-validate.js';
