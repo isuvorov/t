@@ -39,7 +39,7 @@ export function txValidate(
   for (let i = 0; i < sortedTransactions.length; i++) {
     const tx = sortedTransactions[i];
     if (transactionIds.has(tx.id)) {
-      validTransactions.set(i, false);
+      validTransactions.set(i, true);
       continue;
     }
     if (tx.txType === 'Bet') {
@@ -54,7 +54,7 @@ export function txValidate(
     } else {
       // throw?
     }
-    validTransactions.set(i, true);
+    validTransactions.set(i, false);
   }
 
   // обсуждаемо, нужно ли возвращать в таком формате или "по минимому"
